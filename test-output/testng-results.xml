@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Opencart Test Suite" duration-ms="24197" started-at="2022-02-22T15:37:06 IST" finished-at="2022-02-22T15:37:30 IST">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistration.test_account_register()[pri:0, instance:testCases.TC_001_AccountRegistration@fcd6521]" name="test_account_register" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_Login.test_login()[pri:0, instance:testCases.TC_002_Login@376b4233]" name="test_login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.test_account_register()[pri:0, instance:testCases.TC_001_AccountRegistration@fcd6521]" name="test_account_register" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Login.test_login()[pri:0, instance:testCases.TC_002_Login@376b4233]" name="test_login" class="testCases.TC_002_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="Open cart test cases" duration-ms="24197" started-at="2022-02-22T15:37:06 IST" finished-at="2022-02-22T15:37:30 IST">
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@fcd6521]" name="setup" is-config="true" duration-ms="10424" started-at="2022-02-22T15:37:07 IST" finished-at="2022-02-22T15:37:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_account_register()[pri:0, instance:testCases.TC_001_AccountRegistration@fcd6521]" name="test_account_register" duration-ms="4308" started-at="2022-02-22T15:37:17 IST" finished-at="2022-02-22T15:37:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_register -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+      <class name="testCases.TC_002_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@376b4233]" name="setup" is-config="true" duration-ms="3207" started-at="2022-02-22T15:37:21 IST" finished-at="2022-02-22T15:37:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:testCases.TC_002_Login@376b4233]" name="test_login" duration-ms="5875" started-at="2022-02-22T15:37:25 IST" finished-at="2022-02-22T15:37:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+      </class> <!-- testCases.TC_002_Login -->
+    </test> <!-- Open cart test cases -->
+  </suite> <!-- Opencart Test Suite -->
+</testng-results>
