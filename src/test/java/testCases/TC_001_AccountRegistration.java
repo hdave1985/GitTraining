@@ -44,7 +44,7 @@ public class TC_001_AccountRegistration extends testBase
 		logger.info("Submitted form");
 		String confmsg=regpage.getConfirmationMsg();
 		
-		if(confmsg.equals("Your Account Has Been Created!!"))
+		if(confmsg.equals("Your Account Has Been Created!"))
 		{
 			Assert.assertTrue(true);
 			logger.info("TC passed");
